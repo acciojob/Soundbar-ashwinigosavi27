@@ -1,22 +1,28 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: rgb(103,51,152);rgb(103,51,152);
-	color: white;
-  
-  border: none;
-  cursor: pointer;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.stop {
-  background-color: rgb(103,51,152);
-	color: white;
+body{
+    min-height:100vh;
+    display:grid;
+    place-items: center;
 }
-div{
-	background: rgb(160,101,223);
-	height: 15rem;
-	
+
+.container{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    background-color: #941d94;
+}
+
+button {
+    background-color: #5c195c;
+    color: white;
+    padding: 3px 5px;
+    border: none;
 }
